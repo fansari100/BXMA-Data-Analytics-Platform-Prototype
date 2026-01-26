@@ -277,22 +277,6 @@ bxma-platform/
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
----
-
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-
-**Built with ❤️ by the BXMA Risk/Quant Team**
-
-*For questions and support, contact: risk-quant@bxma.internal*
-
-</div>
