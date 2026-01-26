@@ -1,0 +1,248 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 196 100% 50%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 196 100% 50%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 225 15% 7%;
+    --foreground: 210 40% 98%;
+    --card: 225 15% 10%;
+    --card-foreground: 210 40% 98%;
+    --popover: 225 15% 10%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 196 100% 50%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 225 15% 15%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 225 15% 15%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 225 15% 15%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 50.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 225 15% 18%;
+    --input: 225 15% 18%;
+    --ring: 196 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+    font-family: "Calibri", "Arial", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-feature-settings: "rlig" 1, "calt" 1;
+    font-family: "Calibri", "Arial", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  }
+  
+  /* Override any serif fonts */
+  h1, h2, h3, h4, h5, h6, p, span, div, button, input, textarea, label, a, li, td, th {
+    font-family: "Calibri", "Arial", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-dark-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-dark-700 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-dark-600;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-dark-900/60 backdrop-blur-xl border border-dark-700/50;
+  }
+
+  .glass-card {
+    @apply glass rounded-xl p-6;
+  }
+
+  .gradient-border {
+    @apply relative;
+  }
+
+  .gradient-border::before {
+    content: "";
+    @apply absolute inset-0 rounded-xl p-[1px];
+    background: linear-gradient(
+      135deg,
+      rgba(0, 212, 255, 0.5),
+      rgba(0, 255, 136, 0.3),
+      rgba(255, 170, 0, 0.3),
+      rgba(0, 212, 255, 0.5)
+    );
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    -webkit-mask-composite: xor;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent-cyan via-accent-emerald to-accent-cyan bg-clip-text text-transparent;
+  }
+
+  .glow-text {
+    text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+  }
+
+  .metric-card {
+    @apply glass-card hover:border-accent-cyan/30 transition-all duration-300;
+  }
+
+  .metric-card:hover {
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.1);
+  }
+
+  .btn-primary {
+    @apply px-6 py-2.5 bg-accent-cyan text-dark-950 font-semibold rounded-lg;
+    @apply hover:bg-accent-cyan/90 transition-all duration-200;
+    @apply shadow-glow-sm hover:shadow-glow;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-2.5 bg-dark-800 text-dark-100 font-medium rounded-lg;
+    @apply border border-dark-700 hover:border-accent-cyan/50;
+    @apply transition-all duration-200;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2.5 bg-dark-900 border border-dark-700 rounded-lg;
+    @apply text-dark-100 placeholder:text-dark-500;
+    @apply focus:outline-none focus:border-accent-cyan/50 focus:ring-1 focus:ring-accent-cyan/20;
+    @apply transition-all duration-200;
+  }
+
+  .nav-link {
+    @apply flex items-center gap-3 px-4 py-3 rounded-lg;
+    @apply text-dark-400 hover:text-dark-100 hover:bg-dark-800/50;
+    @apply transition-all duration-200;
+  }
+
+  .nav-link.active {
+    @apply text-accent-cyan bg-accent-cyan/10;
+  }
+
+  .chart-container {
+    @apply glass-card overflow-hidden;
+  }
+
+  .data-table {
+    @apply w-full;
+  }
+
+  .data-table th {
+    @apply px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider;
+    @apply text-dark-400 bg-dark-900/50 border-b border-dark-700;
+  }
+
+  .data-table td {
+    @apply px-4 py-3 text-sm text-dark-200 border-b border-dark-800;
+  }
+
+  .data-table tr:hover td {
+    @apply bg-dark-800/30;
+  }
+
+  /* Number formatting */
+  .num-positive {
+    @apply text-accent-emerald;
+  }
+
+  .num-negative {
+    @apply text-accent-rose;
+  }
+
+  .num-neutral {
+    @apply text-dark-400;
+  }
+
+  /* Animations */
+  .animate-in {
+    animation: animate-in 0.3s ease-out;
+  }
+
+  @keyframes animate-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Grid patterns */
+  .bg-grid {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='m36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm-30 30v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+}
+
+/* KaTeX Math Font Override - use Computer Modern Sans instead of Serif */
+.katex {
+  font-family: "KaTeX_Main", "Calibri", "Arial", sans-serif !important;
+}
+
+.katex .mathnormal,
+.katex .mathit {
+  font-style: normal !important;
+}
+
+/* Recharts customization */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: rgba(255, 255, 255, 0.05);
+}
+
+.recharts-tooltip-wrapper {
+  outline: none;
+}
+
+.recharts-default-tooltip {
+  @apply !bg-dark-900/95 !border-dark-700 !rounded-lg !shadow-xl backdrop-blur-sm;
+}
+
+.recharts-tooltip-label {
+  @apply !text-dark-100 !font-semibold;
+}
+
+.recharts-tooltip-item {
+  @apply !text-dark-300;
+}

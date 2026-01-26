@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: bxma
+  labels:
+    name: bxma
+    environment: production

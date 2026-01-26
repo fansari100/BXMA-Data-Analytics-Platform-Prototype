@@ -1,0 +1,70 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bxma-risk-quant"
+version = "1.0.0"
+description = "Blackstone Multi-Asset Investing Risk/Quant Analytics Platform"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Proprietary"}
+authors = [
+    {name = "BXMA Risk/Quant Team", email = "bxma-quant@blackstone.com"}
+]
+keywords = [
+    "portfolio-optimization",
+    "risk-management",
+    "quantitative-finance",
+    "multi-asset",
+    "machine-learning",
+    "deep-learning",
+    "factor-models",
+    "attribution",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.2",
+    "pytest-asyncio>=0.23.5",
+    "pytest-cov>=4.1.0",
+    "hypothesis>=6.99.0",
+    "mypy>=1.8.0",
+    "ruff>=0.3.0",
+    "black>=24.2.0",
+]
+gpu = [
+    "cupy>=13.0.0",
+    "cudf>=24.02",
+    "cuml>=24.02",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "B", "Q", "UP", "S", "BLE", "FBT", "A", "C4", "DTZ", "T10", "EM", "EXE", "ISC", "ICN", "G", "INP", "PIE", "PYI", "PT", "Q", "RSE", "RET", "SLF", "SIM", "TID", "TCH", "ARG", "PGH", "PL", "TRY", "NPY", "PERF", "FURB", "LOG", "RUF"]
+ignore = ["E501", "S101", "PLR0913", "PLR2004"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-v --cov=bxma --cov-report=term-missing"
