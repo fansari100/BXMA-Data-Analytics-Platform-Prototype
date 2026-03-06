@@ -1,4 +1,4 @@
-"""Core module for BXMA Risk/Quant Platform."""
+"""Core module for BXMA Data Analytics Platform."""
 
 from bxma.core.config import BXMAConfig
 from bxma.core.types import (

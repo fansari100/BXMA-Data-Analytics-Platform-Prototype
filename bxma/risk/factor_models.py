@@ -1,5 +1,5 @@
 """
-Factor Models for BXMA Risk/Quant Platform.
+Factor Models for BXMA Data Analytics Platform.
 
 Implements cutting-edge factor model approaches:
 - Statistical Factor Models (PCA, ICA)

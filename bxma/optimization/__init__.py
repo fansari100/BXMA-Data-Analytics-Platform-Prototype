@@ -1,5 +1,5 @@
 """
-Portfolio Optimization Engine for BXMA Risk/Quant Platform.
+Portfolio Optimization Engine for BXMA Data Analytics Platform.
 
 Implements cutting-edge optimization techniques:
 - Classical: Mean-Variance, Min Variance, Max Sharpe

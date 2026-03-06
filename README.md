@@ -1,4 +1,4 @@
-# BXMA Risk/Quant Platform
+# BXMA Data Analytics Platform
 
 <div align="center">
 

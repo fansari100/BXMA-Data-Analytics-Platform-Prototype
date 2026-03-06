@@ -3,7 +3,7 @@ import "./globals.css";
 import { Providers } from "@/components/providers";
 
 export const metadata: Metadata = {
-  title: "BXMA Risk/Quant Platform",
+  title: "BXMA Data Analytics Platform",
   description: "Blackstone Multi-Asset Investing Risk & Quantitative Analytics Platform",
   icons: {
     icon: "/favicon.ico",

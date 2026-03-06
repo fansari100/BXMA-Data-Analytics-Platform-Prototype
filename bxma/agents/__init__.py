@@ -1,5 +1,5 @@
 """
-Agentic AI Module for BXMA Risk/Quant Platform
+Agentic AI Module for BXMA Data Analytics Platform
 ===============================================
 
 Implements autonomous risk management agents using the ReAct

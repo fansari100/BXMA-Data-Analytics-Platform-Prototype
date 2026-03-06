@@ -1,5 +1,5 @@
 """
-Multi-Period Attribution Linking for BXMA Risk/Quant Platform.
+Multi-Period Attribution Linking for BXMA Data Analytics Platform.
 
 Implements multi-period linking methodologies:
 - Frongello Linking

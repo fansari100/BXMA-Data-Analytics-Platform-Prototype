@@ -7,7 +7,7 @@ Manages collaboration across BXMA groups:
 - Operations
 - Treasury
 - Legal
-- Risk/Quant
+- Data Analytics
 
 CRITICAL REQUIREMENT: Ensure seamless integration, alignment,
 and effective collaboration across all BXMA groups.
@@ -217,7 +217,7 @@ TEAM_RESPONSIBILITIES = {
         ],
     },
     TeamType.RISK_QUANT: {
-        "name": "Risk/Quant",
+        "name": "Data Analytics",
         "responsibilities": [
             "Risk model development and validation",
             "Performance and attribution analytics",

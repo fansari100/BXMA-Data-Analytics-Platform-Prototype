@@ -1,5 +1,5 @@
 """
-BXMA Risk/Quant Platform - FastAPI Backend
+BXMA Data Analytics Platform - FastAPI Backend
 ============================================
 
 High-performance async API server providing:
@@ -196,9 +196,9 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="BXMA Risk/Quant Platform API",
+    title="BXMA Data Analytics Platform API",
     description="""
-    Blackstone Multi-Asset Investing Risk/Quant Analytics Platform
+    Blackstone Multi-Asset Investing Data Analytics Analytics Platform
     
     ## Core Features
     
@@ -1163,7 +1163,7 @@ async def get_teams():
     """
     Get team directory for cross-functional collaboration.
     
-    Returns teams: Investment, Operations, Treasury, Legal, Risk/Quant.
+    Returns teams: Investment, Operations, Treasury, Legal, Data Analytics.
     """
     from bxma.collaboration.teams import TEAM_RESPONSIBILITIES, TeamType
     

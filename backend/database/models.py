@@ -1,5 +1,5 @@
 """
-Database Models for BXMA Risk/Quant Platform.
+Database Models for BXMA Data Analytics Platform.
 
 Uses SQLAlchemy 2.0 with async support and TimescaleDB for time-series data.
 """

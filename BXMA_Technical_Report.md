@@ -1,4 +1,4 @@
-<h1 align="center">BXMA Risk/Quant Platform Prototype</h1>
+<h1 align="center">BXMA Data Analytics Platform Prototype</h1>
 
 ---
 
@@ -8,13 +8,13 @@
 | **Date** | January 2026 |
 | **Version** | 2.0 |
 | **Classification** | Technical Prototype Documentation |
-| **Platform** | Full-Stack Institutional Risk/Quant System |
+| **Platform** | Full-Stack Institutional Data Analytics System |
 
 ---
 
 ## Executive Summary
 
-The **BXMA Risk/Quant Platform** is a production-grade, full-stack prototype engineered for institutional multi-asset portfolio analytics, risk management, and optimization. Designed specifically for Blackstone's Multi-Asset Investing (BXMA) division, this system demonstrates comprehensive expertise across quantitative finance, machine learning, and enterprise software engineering.
+The **BXMA Data Analytics Platform** is a production-grade, full-stack prototype engineered for institutional multi-asset portfolio analytics, risk management, and optimization. Designed specifically for Blackstone's Multi-Asset Investing (BXMA) division, this system demonstrates comprehensive expertise across quantitative finance, machine learning, and enterprise software engineering.
 
 ### Platform Capabilities at a Glance
 

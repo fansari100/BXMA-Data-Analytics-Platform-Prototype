@@ -5,12 +5,12 @@ build-backend = "hatchling.build"
 [project]
 name = "bxma-risk-quant"
 version = "1.0.0"
-description = "Blackstone Multi-Asset Investing Risk/Quant Analytics Platform"
+description = "Blackstone Multi-Asset Investing Data Analytics Analytics Platform"
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "Proprietary"}
 authors = [
-    {name = "BXMA Risk/Quant Team", email = "bxma-quant@blackstone.com"}
+    {name = "BXMA Data Analytics Team", email = "bxma-quant@blackstone.com"}
 ]
 keywords = [
     "portfolio-optimization",

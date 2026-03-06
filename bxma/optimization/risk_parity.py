@@ -1,5 +1,5 @@
 """
-Risk Parity and Hierarchical Optimization for BXMA Risk/Quant Platform.
+Risk Parity and Hierarchical Optimization for BXMA Data Analytics Platform.
 
 Implements advanced risk-based allocation approaches:
 - Equal Risk Contribution (ERC)

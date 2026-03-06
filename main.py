@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-BXMA Risk/Quant Platform - Main Entry Point
+BXMA Data Analytics Platform - Main Entry Point
 ============================================
 
 Blackstone Multi-Asset Investing Risk & Quantitative Analytics Platform
@@ -17,7 +17,7 @@ Usage:
     python main.py --server         # Start API server
     python main.py --test           # Run test suite
 
-Author: BXMA Risk/Quant Team
+Author: BXMA Data Analytics Team
 Version: 1.0.0
 """
 
@@ -33,7 +33,7 @@ import numpy as np
 def run_demo():
     """Run comprehensive platform demonstration."""
     print("=" * 70)
-    print("  BXMA Risk/Quant Platform - Demonstration")
+    print("  BXMA Data Analytics Platform - Demonstration")
     print("  Blackstone Multi-Asset Investing")
     print("=" * 70)
     print()
@@ -330,7 +330,7 @@ def run_tests():
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(
-        description="BXMA Risk/Quant Platform",
+        description="BXMA Data Analytics Platform",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:

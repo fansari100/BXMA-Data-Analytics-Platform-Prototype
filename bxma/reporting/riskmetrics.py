@@ -1,5 +1,5 @@
 """
-RiskMetrics Integration for BXMA Risk/Quant Platform.
+RiskMetrics Integration for BXMA Data Analytics Platform.
 
 Provides connectivity to RiskMetrics data and risk calculations:
 - Covariance matrix retrieval

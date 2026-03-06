@@ -1,5 +1,5 @@
 """
-SHAP-Based Explainability for BXMA Risk/Quant Platform.
+SHAP-Based Explainability for BXMA Data Analytics Platform.
 
 Implements SHAP (SHapley Additive exPlanations) for:
 - Risk attribution decomposition

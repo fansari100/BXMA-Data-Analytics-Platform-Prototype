@@ -1,5 +1,5 @@
 """
-Configuration management for BXMA Risk/Quant Platform.
+Configuration management for BXMA Data Analytics Platform.
 Supports multiple environments, data sources, and computation settings.
 """
 
@@ -203,7 +203,7 @@ class ReportingConfig:
 @dataclass
 class BXMAConfig:
     """
-    Master configuration for BXMA Risk/Quant Platform.
+    Master configuration for BXMA Data Analytics Platform.
     
     Consolidates all subsystem configurations and provides
     environment-aware loading and validation.

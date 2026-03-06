@@ -1,5 +1,5 @@
 """
-Factor-Based Attribution for BXMA Risk/Quant Platform.
+Factor-Based Attribution for BXMA Data Analytics Platform.
 
 Implements factor attribution methodologies:
 - Factor Return Attribution

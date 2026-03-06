@@ -1,5 +1,5 @@
 """
-Performance Attribution Engine for BXMA Risk/Quant Platform.
+Performance Attribution Engine for BXMA Data Analytics Platform.
 
 Implements comprehensive attribution methodologies:
 - Brinson-Fachler (arithmetic)

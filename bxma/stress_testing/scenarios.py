@@ -1,5 +1,5 @@
 """
-Scenario Analysis Engine for BXMA Risk/Quant Platform.
+Scenario Analysis Engine for BXMA Data Analytics Platform.
 
 Implements multiple stress testing methodologies:
 - Historical scenario replay

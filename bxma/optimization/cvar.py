@@ -1,5 +1,5 @@
 """
-CVaR-Based Portfolio Optimization for BXMA Risk/Quant Platform.
+CVaR-Based Portfolio Optimization for BXMA Data Analytics Platform.
 
 Implements CVaR (Expected Shortfall) optimization:
 - Mean-CVaR Optimization

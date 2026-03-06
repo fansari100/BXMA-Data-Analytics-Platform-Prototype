@@ -1,5 +1,5 @@
 """
-Portfolio and Position models for BXMA Risk/Quant Platform.
+Portfolio and Position models for BXMA Data Analytics Platform.
 Provides core data structures for multi-asset portfolio management.
 """
 

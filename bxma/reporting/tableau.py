@@ -8,7 +8,7 @@ Provides seamless integration with Tableau for:
 - Hyper file generation
 - Dashboard embedding
 
-This is a CRITICAL requirement for the BXMA Risk/Quant platform.
+This is a CRITICAL requirement for the BXMA Data Analytics platform.
 
 Author: BXMA Quant Team
 Date: January 2026

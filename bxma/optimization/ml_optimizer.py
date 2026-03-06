@@ -1,5 +1,5 @@
 """
-Machine Learning Portfolio Optimization for BXMA Risk/Quant Platform.
+Machine Learning Portfolio Optimization for BXMA Data Analytics Platform.
 
 Implements cutting-edge ML-based portfolio optimization:
 - Neural Network Portfolio Optimizer

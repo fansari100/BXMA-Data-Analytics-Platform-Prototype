@@ -1,5 +1,5 @@
 """
-Covariance Estimation for BXMA Risk/Quant Platform.
+Covariance Estimation for BXMA Data Analytics Platform.
 
 Implements cutting-edge covariance estimation techniques:
 - Sample Covariance (baseline)

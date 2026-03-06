@@ -1,5 +1,5 @@
 """
-Stress Testing and Scenario Analysis for BXMA Risk/Quant Platform.
+Stress Testing and Scenario Analysis for BXMA Data Analytics Platform.
 
 Implements comprehensive stress testing capabilities:
 - Historical scenario replay

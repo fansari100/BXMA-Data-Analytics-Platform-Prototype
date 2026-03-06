@@ -1,5 +1,5 @@
 """
-Advanced Risk Modeling for BXMA Risk/Quant Platform.
+Advanced Risk Modeling for BXMA Data Analytics Platform.
 
 Implements cutting-edge risk analytics:
 - Value-at-Risk (VaR): Parametric, Historical, Monte Carlo, Cornish-Fisher

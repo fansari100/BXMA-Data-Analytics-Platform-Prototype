@@ -1,5 +1,5 @@
 """
-High-Performance Data Infrastructure for BXMA Risk/Quant Platform.
+High-Performance Data Infrastructure for BXMA Data Analytics Platform.
 
 Leverages cutting-edge technologies:
 - Polars: Rust-based DataFrame (10-100x faster than pandas)

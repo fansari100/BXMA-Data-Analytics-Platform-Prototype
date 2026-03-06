@@ -1,5 +1,5 @@
 """
-Returns calculation and transformation utilities for BXMA Risk/Quant Platform.
+Returns calculation and transformation utilities for BXMA Data Analytics Platform.
 """
 
 from __future__ import annotations

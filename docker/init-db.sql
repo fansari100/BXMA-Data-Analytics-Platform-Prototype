@@ -109,4 +109,4 @@ SELECT add_compression_policy('risk.factor_returns', INTERVAL '1 year');
 -- Create retention policy (optional, for demo keeping all data)
 -- SELECT add_retention_policy('portfolio.price_history', INTERVAL '10 years');
 
-COMMENT ON DATABASE bxma IS 'BXMA Risk/Quant Platform Database';
+COMMENT ON DATABASE bxma IS 'BXMA Data Analytics Platform Database';

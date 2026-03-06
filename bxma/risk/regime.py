@@ -1,5 +1,5 @@
 """
-Regime Detection for BXMA Risk/Quant Platform.
+Regime Detection for BXMA Data Analytics Platform.
 
 Implements market regime detection using:
 - Hidden Markov Models (HMM)

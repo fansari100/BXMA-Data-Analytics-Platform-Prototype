@@ -1,5 +1,5 @@
 """
-Risk Reporting Stack for BXMA Risk/Quant Platform.
+Risk Reporting Stack for BXMA Data Analytics Platform.
 
 Integrates multiple data sources and provides comprehensive reporting:
 - RiskMetrics Integration (MSCI/BARRA models, EWMA covariance)

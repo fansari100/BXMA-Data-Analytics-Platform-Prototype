@@ -1,5 +1,5 @@
 """
-BXMA Risk/Quant Analytics Platform
+BXMA Data Analytics Analytics Platform
 ===================================
 
 Blackstone Multi-Asset Investing's bleeding-edge quantitative analytics system
@@ -20,7 +20,7 @@ January 2026 - Built on cutting-edge academic research and production-grade syst
 """
 
 __version__ = "1.0.0"
-__author__ = "BXMA Risk/Quant Team"
+__author__ = "BXMA Data Analytics Team"
 
 from bxma.core.config import BXMAConfig
 from bxma.core.types import (

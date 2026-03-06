@@ -1,5 +1,5 @@
 """
-Type definitions and enums for BXMA Risk/Quant Platform.
+Type definitions and enums for BXMA Data Analytics Platform.
 Provides strict typing for multi-asset portfolio analytics.
 """
 

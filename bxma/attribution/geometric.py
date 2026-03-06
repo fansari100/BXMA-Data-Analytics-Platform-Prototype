@@ -1,5 +1,5 @@
 """
-Geometric Attribution Models for BXMA Risk/Quant Platform.
+Geometric Attribution Models for BXMA Data Analytics Platform.
 
 Implements geometric (multiplicative) attribution approaches:
 - Cariño Method: Smoothing for compounding adjustment

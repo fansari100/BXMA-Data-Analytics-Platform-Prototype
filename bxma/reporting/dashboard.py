@@ -1,5 +1,5 @@
 """
-Risk Dashboard for BXMA Risk/Quant Platform.
+Risk Dashboard for BXMA Data Analytics Platform.
 
 Provides real-time interactive dashboards using Plotly Dash:
 - Portfolio overview and NAV tracking
@@ -79,7 +79,7 @@ class RiskDashboard:
                     'fontFamily': 'JetBrains Mono, monospace',
                     'marginBottom': '0',
                 }),
-                html.P("Blackstone Multi-Asset Investing Risk/Quant Analytics", style={
+                html.P("Blackstone Multi-Asset Investing Data Analytics Analytics", style={
                     'color': '#888',
                     'fontSize': '14px',
                 }),

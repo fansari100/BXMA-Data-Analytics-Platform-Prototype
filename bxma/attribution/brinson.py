@@ -1,5 +1,5 @@
 """
-Brinson Attribution Models for BXMA Risk/Quant Platform.
+Brinson Attribution Models for BXMA Data Analytics Platform.
 
 Implements the foundational arithmetic attribution approaches:
 - Brinson-Fachler (1985): Interaction separate from selection

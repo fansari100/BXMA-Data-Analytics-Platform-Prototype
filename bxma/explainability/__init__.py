@@ -1,5 +1,5 @@
 """
-Explainable AI for BXMA Risk/Quant Platform.
+Explainable AI for BXMA Data Analytics Platform.
 
 Implements transparent decision-making systems:
 - SHAP-based risk attribution

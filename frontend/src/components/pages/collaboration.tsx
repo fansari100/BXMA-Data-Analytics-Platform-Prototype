@@ -65,7 +65,7 @@ const teamConfig: Record<TeamType, { icon: React.ElementType; color: string; lab
   OPERATIONS: { icon: Building2, color: "text-accent-cyan", label: "Operations" },
   TREASURY: { icon: DollarSign, color: "text-accent-amber", label: "Treasury" },
   LEGAL: { icon: Scale, color: "text-accent-violet", label: "Legal & Compliance" },
-  RISK_QUANT: { icon: ShieldCheck, color: "text-accent-rose", label: "Risk/Quant" },
+  RISK_QUANT: { icon: ShieldCheck, color: "text-accent-rose", label: "Data Analytics" },
 };
 
 const statusColors: Record<string, string> = {

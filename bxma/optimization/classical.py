@@ -1,5 +1,5 @@
 """
-Classical Portfolio Optimization for BXMA Risk/Quant Platform.
+Classical Portfolio Optimization for BXMA Data Analytics Platform.
 
 Implements foundational optimization approaches with CVXPY:
 - Mean-Variance Optimization (Markowitz)

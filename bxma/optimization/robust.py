@@ -1,5 +1,5 @@
 """
-Robust Portfolio Optimization for BXMA Risk/Quant Platform.
+Robust Portfolio Optimization for BXMA Data Analytics Platform.
 
 Implements robust optimization approaches:
 - Black-Litterman Model

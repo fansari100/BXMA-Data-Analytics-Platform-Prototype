@@ -1,5 +1,5 @@
 """
-High-Performance Data Engine for BXMA Risk/Quant Platform.
+High-Performance Data Engine for BXMA Data Analytics Platform.
 
 Built on Polars + DuckDB + Arrow for maximum performance:
 - 10-100x faster than pandas for large datasets

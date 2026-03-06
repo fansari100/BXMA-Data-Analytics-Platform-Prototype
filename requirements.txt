@@ -1,5 +1,5 @@
 # =============================================================================
-# BXMA Risk/Quant Platform - Python Dependencies
+# BXMA Data Analytics Platform - Python Dependencies
 # =============================================================================
 
 # Core Data Processing
